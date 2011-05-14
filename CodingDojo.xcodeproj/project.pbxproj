@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		65A65FBA137F1D9E00B805DF /* libCodingDojo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCodingDojo.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A65FC6137F1EB000B805DF /* CodingDojoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingDojoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65A65FC7137F1EB100B805DF /* CodingDojoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodingDojoTests-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65A65FB8137F1D9E00B805DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A65FC3137F1EB000B805DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65A65FA7137F104700B805DF = {
+			isa = PBXGroup;
+			children = (
+				65A65FB4137F1D1C00B805DF /* Classes */,
+				65A65FB5137F1D4000B805DF /* Tests */,
+				65A65FBB137F1D9E00B805DF /* Products */,
+				65A65FC7137F1EB100B805DF /* CodingDojoTests-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		65A65FB4137F1D1C00B805DF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		65A65FB5137F1D4000B805DF /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		65A65FBB137F1D9E00B805DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65A65FBA137F1D9E00B805DF /* libCodingDojo.a */,
+				65A65FC6137F1EB000B805DF /* CodingDojoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		65A65FB6137F1D9E00B805DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		65A65FB9137F1D9E00B805DF /* CodingDojo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A65FBE137F1D9F00B805DF /* Build configuration list for PBXNativeTarget "CodingDojo" */;
+			buildPhases = (
+				65A65FB6137F1D9E00B805DF /* Headers */,
+				65A65FB7137F1D9E00B805DF /* Sources */,
+				65A65FB8137F1D9E00B805DF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodingDojo;
+			productName = CodingDojoLib;
+			productReference = 65A65FBA137F1D9E00B805DF /* libCodingDojo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		65A65FC5137F1EB000B805DF /* CodingDojoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65A65FCA137F1EB100B805DF /* Build configuration list for PBXNativeTarget "CodingDojoTests" */;
+			buildPhases = (
+				65A65FC1137F1EB000B805DF /* Resources */,
+				65A65FC2137F1EB000B805DF /* Sources */,
+				65A65FC3137F1EB000B805DF /* Frameworks */,
+				65A65FC4137F1EB000B805DF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodingDojoTests;
+			productName = CodingDojoTests;
+			productReference = 65A65FC6137F1EB000B805DF /* CodingDojoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65A65FA9137F104700B805DF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 65A65FAC137F104700B805DF /* Build configuration list for PBXProject "CodingDojo" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 65A65FA7137F104700B805DF;
+			productRefGroup = 65A65FBB137F1D9E00B805DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65A65FB9137F1D9E00B805DF /* CodingDojo */,
+				65A65FC5137F1EB000B805DF /* CodingDojoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65A65FC1137F1EB000B805DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		65A65FC4137F1EB000B805DF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\" 1> /dev/null";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65A65FB7137F1D9E00B805DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65A65FC2137F1EB000B805DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		65A65FAA137F104700B805DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		65A65FAB137F104700B805DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		65A65FBC137F1D9E00B805DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CodingDojo;
+			};
+			name = Debug;
+		};
+		65A65FBD137F1D9E00B805DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
+				INSTALL_PATH = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					AppKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CodingDojo;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		65A65FC8137F1EB100B805DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "CodingDojoTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CodingDojoTests;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		65A65FC9137F1EB100B805DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
+				INFOPLIST_FILE = "CodingDojoTests-Info.plist";
+				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Cocoa,
+					"-framework",
+					SenTestingKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CodingDojoTests;
+				WRAPPER_EXTENSION = octest;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65A65FAC137F104700B805DF /* Build configuration list for PBXProject "CodingDojo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A65FAA137F104700B805DF /* Debug */,
+				65A65FAB137F104700B805DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A65FBE137F1D9F00B805DF /* Build configuration list for PBXNativeTarget "CodingDojo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A65FBC137F1D9E00B805DF /* Debug */,
+				65A65FBD137F1D9E00B805DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65A65FCA137F1EB100B805DF /* Build configuration list for PBXNativeTarget "CodingDojoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65A65FC8137F1EB100B805DF /* Debug */,
+				65A65FC9137F1EB100B805DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65A65FA9137F104700B805DF /* Project object */;
+}
