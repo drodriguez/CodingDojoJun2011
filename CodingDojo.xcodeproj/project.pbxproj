@@ -6,10 +6,19 @@
 	objectVersion = 42;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		65B8507613802C6D00E56FB1 /* CDRangeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B8507513802C6D00E56FB1 /* CDRangeTest.m */; };
+		65B8507813802C9200E56FB1 /* CDRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B8507713802C9200E56FB1 /* CDRange.h */; };
+		65B8507A13802CA500E56FB1 /* CDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B8507913802CA500E56FB1 /* CDRange.m */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		65A65FBA137F1D9E00B805DF /* libCodingDojo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCodingDojo.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A65FC6137F1EB000B805DF /* CodingDojoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingDojoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65A65FC7137F1EB100B805DF /* CodingDojoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CodingDojoTests-Info.plist"; sourceTree = "<group>"; };
+		65B8507513802C6D00E56FB1 /* CDRangeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDRangeTest.m; sourceTree = "<group>"; };
+		65B8507713802C9200E56FB1 /* CDRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CDRange.h; sourceTree = "<group>"; };
+		65B8507913802CA500E56FB1 /* CDRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CDRange.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,8 @@
 		65A65FB4137F1D1C00B805DF /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				65B8507713802C9200E56FB1 /* CDRange.h */,
+				65B8507913802CA500E56FB1 /* CDRange.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -50,6 +61,7 @@
 		65A65FB5137F1D4000B805DF /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				65B8507513802C6D00E56FB1 /* CDRangeTest.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -70,6 +82,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B8507813802C9200E56FB1 /* CDRange.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +181,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B8507A13802CA500E56FB1 /* CDRange.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,6 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B8507613802C6D00E56FB1 /* CDRangeTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
