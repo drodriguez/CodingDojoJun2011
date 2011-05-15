@@ -20,14 +20,18 @@ def run_xcodebuild(target, configuration)
       puts line
     end
   end
-  
-  summary_line = output.find { |l| l =~ /Executed \d+ tests?, with \d+ failures? \(\d unexpected\)/}
-  
+
+  summary_line = output.find { |l| l =~ /Executed \d+ tests?, with \d+ failures? \(\d unexpected\)/ }
+  error_lines = output.find_all { |l| l =~ /: error:/ }
+
+  growl_text = [summary_line.to_s] + error_lines
+  growl_text = growl_text.compact.join("\n")
+
   if exit_status.to_i == 0
-    growl(PASS_TITLE, summary_line.to_s, PASS_IMAGE)
+    growl(PASS_TITLE, growl_text, PASS_IMAGE)
   else
-    growl(FAIL_TITLE, summary_line.to_s, FAIL_IMAGE)
-  end  
+    growl(FAIL_TITLE, growl_text, FAIL_IMAGE)
+  end
 end
 
 watch('Classes/.*\.(h|m)') { run_xcodebuild(XCODE_TARGET, XCODE_CONF) }

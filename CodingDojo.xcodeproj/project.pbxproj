@@ -10,7 +10,18 @@
 		65B8507613802C6D00E56FB1 /* CDRangeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B8507513802C6D00E56FB1 /* CDRangeTest.m */; };
 		65B8507813802C9200E56FB1 /* CDRange.h in Headers */ = {isa = PBXBuildFile; fileRef = 65B8507713802C9200E56FB1 /* CDRange.h */; };
 		65B8507A13802CA500E56FB1 /* CDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 65B8507913802CA500E56FB1 /* CDRange.m */; };
+		65B850AA1380327E00E56FB1 /* libCodingDojo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65A65FBA137F1D9E00B805DF /* libCodingDojo.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65B850A61380326D00E56FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65A65FA9137F104700B805DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65A65FB9137F1D9E00B805DF /* CodingDojo */;
+			remoteInfo = CodingDojo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		65A65FBA137F1D9E00B805DF /* libCodingDojo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCodingDojo.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B850AA1380327E00E56FB1 /* libCodingDojo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,6 +130,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				65B850A71380326D00E56FB1 /* PBXTargetDependency */,
 			);
 			name = CodingDojoTests;
 			productName = CodingDojoTests;
@@ -173,6 +186,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\" 1> /dev/null";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -194,6 +208,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65B850A71380326D00E56FB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65A65FB9137F1D9E00B805DF /* CodingDojo */;
+			targetProxy = 65B850A61380326D00E56FB1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		65A65FAA137F104700B805DF /* Debug */ = {
