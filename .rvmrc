@@ -27,10 +27,10 @@ fi
 # it be automatically loaded. Uncomment the following and adjust the filename if
 # necessary.
 #
-# filename=".gems"
-# if [[ -s "$filename" ]] ; then
-#   rvm gemset import "$filename" | grep -v already | grep -v listed | grep -v complete | sed '/^$/d'
-# fi
+filename=".gems"
+if [[ -s "$filename" ]] ; then
+  rvm gemset import "$filename" | grep -v already | grep -v listed | grep -v complete | sed '/^$/d'
+fi
 
 #
 # If you use bundler and would like to run bundle each time you enter the

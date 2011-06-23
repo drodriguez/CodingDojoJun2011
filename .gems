@@ -1,0 +1,3 @@
+# default.gems generated gem export file. Note that any env variable settings will be missing. Append these after using a ';' field separator
+open4 -v1.0.1
+watchr -v0.7
